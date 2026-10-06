@@ -2,7 +2,7 @@
 
 An interactive, mathematics-focused driving-route simulator for Halifax, Dartmouth, Bedford and Herring Cove.
 
-[Open the published simulator](https://halifax-route-lab-math-ia.zippy-teal-0885.chatgpt.site)
+[Open the published simulator](https://shuusher.github.io/halifax-route-lab/)
 
 This repository contains only the publishing copy. The frozen IA evidence, written exploration, and experimental records are kept separately and are not included.
 
@@ -14,6 +14,8 @@ This repository contains only the publishing copy. The frozen IA evidence, writt
 - `robots.txt`: crawler access
 
 Serve this directory with a static HTTP server. No build, API key or backend is required. Keep all five graph chunks beside the application module. Opening the HTML directly as a local file may block data loading; use HTTP hosting instead.
+
+GitHub Pages publishes the root of the `main` branch. `.nojekyll` keeps these static files unchanged. All application and road-data paths are relative, supporting the `/halifax-route-lab/` project URL.
 
 ## Model
 
